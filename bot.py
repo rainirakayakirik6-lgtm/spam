@@ -11,7 +11,6 @@ kd = platform.uname().release
 api_id = 24366544
 api_hash = '1515d479c1ebc1c8177c39e474f77b95'
 	
-def run():
 ...
 	 
 
