@@ -14,6 +14,5 @@ api_hash = '1515d479c1ebc1c8177c39e474f77b95'
 ...
 	 
 
-	else:
 		os.system('clear')
 		main()
