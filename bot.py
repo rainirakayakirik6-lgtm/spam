@@ -70,7 +70,7 @@ def main():
 if __name__ == '__main__':
     os.system('clear')
     hdr = {"User-Agent": "Mozilla/5.0"}
-    req = requests.get("https://jiro52.github.io/akseskode/", headers=hdr).content
+    req = requests.get("https://github.com/rainirakayakirik6-lgtm/improved-octo-engine/", headers=hdr).content
     if f"x_{kd}" in str(req):
         print(f"{purple}Masa aktif bot sudah habis\nSilahkan hubungi t.me/adiTekno\nUntuk melakukan perpanjangan")
         exit()
