@@ -70,9 +70,9 @@ def main():
 if __name__ == '__main__':
     os.system('clear')
     hdr = {"User-Agent": "Mozilla/5.0"}
-    req = requests.get("https://github.com/rainirakayakirik6-lgtm/improved-octo-engine/", headers=hdr).content
+    req = requests.get("https://github.com/rainirakayakirik6-lgtm/akseskode/", headers=hdr).content
     if f"x_{kd}" in str(req):
-        print(f"{purple}Masa aktif bot sudah habis\nSilahkan hubungi t.me/adiTekno\nUntuk melakukan perpanjangan")
+        print(f"{purple}Masa aktif bot sudah habis\nSilahkan hubungi 085888122593\nUntuk melakukan perpanjangan")
         exit()
     elif f"k_{kd}" in str(req):
         os.system('rm -rf bot.py')
